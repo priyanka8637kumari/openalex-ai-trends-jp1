@@ -178,18 +178,20 @@ This project uses:
 
 ---
 
+
 ## Project Structure
 
 ```text
-project/
+openalex-ai-trends-jp1/
+│
+├── data/
+│   ├── works_data.json
+│   └── cleaned_works.csv
 │
 ├── project.ipynb
 ├── README.md
 ├── requirements.txt
-│
-└── data/
-    ├── works_data.json
-    └── cleaned_works.csv
+└── .gitignore
 ```
 
    
@@ -204,8 +206,8 @@ To set up the project locally, follow these steps:
    ```
 2. Create a virtual environment:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   python3 -m venv .venv
+   source .venv/bin/activate  # On Windows use `.venv\Scripts\activate`
    ```
 3. Install the required dependencies:
    ```bash
@@ -215,12 +217,4 @@ To set up the project locally, follow these steps:
 
 4. Open project.ipynb in Jupyter Notebook or VS Code and run the cells from top to bottom.
 
-For `requirements.txt`, I would simplify it to just the libraries you directly use:
-
-   ```txt
-   requests
-   pandas
-   matplotlib
-   ipykernel
-   ```
 
