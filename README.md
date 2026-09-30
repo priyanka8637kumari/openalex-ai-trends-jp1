@@ -190,7 +190,9 @@ project/
 └── data/
     ├── works_data.json
     └── cleaned_works.csv
+```
 
+   
 ## Installation
 
 To set up the project locally, follow these steps:
@@ -198,7 +200,7 @@ To set up the project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/priyanka8637kumari/openalex-ai-trends-jp1.git
-   cd openalex-ai-trends
+   cd openalex-ai-trends-jp1
    ```
 2. Create a virtual environment:
    ```bash
@@ -210,4 +212,15 @@ To set up the project locally, follow these steps:
    pip install -r requirements.txt
    ```
    Then open the Jupyter Notebook and run the project.
+
+4. Open project.ipynb in Jupyter Notebook or VS Code and run the cells from top to bottom.
+
+For `requirements.txt`, I would simplify it to just the libraries you directly use:
+
+   ```txt
+   requests
+   pandas
+   matplotlib
+   ipykernel
+   ```
 
